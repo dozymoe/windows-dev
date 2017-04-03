@@ -1,0 +1,9 @@
+*.crt -diff -merge -text
+*.dll -diff -merge -text
+*.exe -diff -merge -text
+*.msu -diff -merge -text
+
+*.bat text eol=crlf
+*.sh text eol=lf
+
+vimrc text eol=lf
